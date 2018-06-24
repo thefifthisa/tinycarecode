@@ -1,0 +1,2 @@
+# tinycarecode 🤗💖
+A VS Code extension that displays self-care reminders from [@tinycarebot](https://twitter.com/tinycarebot), inspired by [tiny-care-terminal](https://github.com/notwaldorf/tiny-care-terminal)! Built using the [VS Code Extension generator](https://code.visualstudio.com/docs/extensions/yocode) and [twit](https://www.npmjs.com/package/twit).
