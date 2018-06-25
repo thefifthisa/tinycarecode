@@ -1,7 +1,7 @@
 {
     "name": "tinycarecode",
     "displayName": "tinycarecode",
-    "description": "A VS Code extension that displays self-care reminders from @tinycarebot. Inspired by tiny-care-terminal.",
+    "description": "A VS Code extension that displays self-care reminders from @tinycarebot.",
     "version": "0.0.1",
     "publisher": "thefifthisa",
     "engines": {
@@ -14,6 +14,38 @@
         "*"
     ],
     "main": "./extension",
+    "contributes": {
+		"configuration": {
+			"title": "tinycarecode",
+			"properties": {
+				"tcc.consumer_key": {
+					"type": "string",
+					"default": "",
+					"description": "Your Consumer Key (API Key)."
+				},
+				"tcc.consumer_secret": {
+					"type": "string",
+					"default": "",
+					"description": "Your Twitter Consumer Secret (API Secret)."
+				},
+				"tcc.access_token": {
+					"type": "string",
+					"default": "",
+					"description": "Your Twitter Access Token."
+				},
+				"tcc.access_token_secret": {
+					"type": "string",
+					"default": "",
+					"description": "Your Twitter Access Token Secret."
+				},
+				"tcc.refresh_after": {
+					"type": "integer",
+					"default": 60,
+					"description": "Number of minutes until new reminder shows up."
+				}
+			}
+		}
+	},
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "node ./node_modules/vscode/bin/test"
