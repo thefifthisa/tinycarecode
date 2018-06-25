@@ -11,17 +11,9 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.tinyCare"
+        "*"
     ],
     "main": "./extension",
-    "contributes": {
-        "commands": [
-            {
-                "command": "extension.tinyCare",
-                "title": "tinycarecode"
-            }
-        ]
-    },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "node ./node_modules/vscode/bin/test"
