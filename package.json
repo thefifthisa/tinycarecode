@@ -60,6 +60,7 @@
     "dependencies": {
         "twit": "^2.2.10"
 	},
+	"homepage": "https://github.com/thefifthisa/tinycarecode/blob/master/README.md",
 	"repository": {
         "type": "git",
         "url": "https://github.com/thefifthisa/tinycarecode.git"
