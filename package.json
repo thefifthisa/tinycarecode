@@ -1,20 +1,20 @@
 {
-    "name": "tinycarecode",
-    "displayName": "tinycarecode",
-    "description": "A VS Code extension that displays self-care reminders from @tinycarebot.",
-    "version": "0.0.1",
-    "publisher": "thefifthisa",
-    "engines": {
-        "vscode": "^1.24.0"
-    },
-    "categories": [
-        "Other"
-    ],
-    "activationEvents": [
-        "*"
-    ],
-    "main": "./extension",
-    "contributes": {
+	"name": "tinycarecode",
+	"displayName": "tinycarecode",
+	"description": "A VS Code extension that displays self-care reminders from @tinycarebot.",
+	"version": "0.0.2",
+	"publisher": "thefifthisa",
+	"engines": {
+		"vscode": "^1.24.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./extension",
+	"contributes": {
 		"configuration": {
 			"title": "tinycarecode",
 			"properties": {
@@ -46,23 +46,23 @@
 			}
 		}
 	},
-    "scripts": {
-        "postinstall": "node ./node_modules/vscode/bin/install",
-        "test": "node ./node_modules/vscode/bin/test"
-    },
-    "devDependencies": {
-        "typescript": "^2.6.1",
-        "vscode": "^1.1.6",
-        "eslint": "^4.11.0",
-        "@types/node": "^7.0.43",
-        "@types/mocha": "^2.2.42"
-    },
-    "dependencies": {
-        "twit": "^2.2.10"
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^2.6.1",
+		"vscode": "^1.1.6",
+		"eslint": "^4.11.0",
+		"@types/node": "^7.0.43",
+		"@types/mocha": "^2.2.42"
+	},
+	"dependencies": {
+		"twit": "^2.2.10"
 	},
 	"homepage": "https://github.com/thefifthisa/tinycarecode/blob/master/README.md",
 	"repository": {
-        "type": "git",
-        "url": "https://github.com/thefifthisa/tinycarecode.git"
-    }
+		"type": "git",
+		"url": "https://github.com/thefifthisa/tinycarecode.git"
+	}
 }
