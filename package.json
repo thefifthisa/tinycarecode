@@ -2,7 +2,7 @@
 	"name": "tinycarecode",
 	"displayName": "tinycarecode",
 	"description": "A VS Code extension that displays self-care reminders from @tinycarebot.",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "thefifthisa",
 	"engines": {
 		"vscode": "^1.24.0"
